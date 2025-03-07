@@ -39,13 +39,13 @@ const CareerPage = () => {
 
     ];
     return (
-        <div className='w-full h-auto bg-[#010916]'>
+        <div className='w-full h-auto bg-[#010916]  lg:px-10 md:px-6 px-4'>
             <div className="pt-6 relative z-50">
                 <Navbar />
             </div>
-            <div className='flex flex-col items-center justify-center pt-12  md:py-16 px-10'>
+            <div className='flex flex-col items-center justify-center pt-12  '>
                 <h1 className='items-center text-[18px]  font-semi-bold'><span className='text-[#6D6D6D]'>Career</span> <span className='text-[#6D6D6D]'> / </span> <span className='text-[#E1BBFB]'>Marketing Specialists</span></h1>
-                <h1 className=' text-white text-3xl md:text-5xl font-bold'>Marketing Specialists</h1>
+                <h1 className=' text-white text-xl lg:text-5xl md:text-3xl pt-2 font-bold'>Marketing Specialists</h1>
                 <h1 className='text-[#6D6D6D] pt-4'>Explore an exciting opportunity to drive impactful marketing campaigns, optimize strategies, and grow with the AdVibe team.</h1>
 
             </div>

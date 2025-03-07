@@ -61,7 +61,7 @@ const Services2 = () => {
 
   return (
     <>
-      <div className="bg-black w-full h-auto text-white py-2">
+      <div className="bg-black w-full h-auto text-white py-6">
         {/* Header Section */}
         <div className="flex w-full justify-center">
           <button className="w-[120px] h-[36px] bg-gray-500 text-[#E1BBFB] cursor-pointer rounded-full ml-1 flex items-center justify-center my-4 gap-2">

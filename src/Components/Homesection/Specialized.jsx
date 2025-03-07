@@ -5,7 +5,7 @@ const Service = () => {
 
     return (
         <>
-            <div className='w-full flex flex-col gap-12 md:py-16 bg-black px-3 sm:px-10 lg:px-20' >
+            <div className='w-full flex flex-col gap-12 md:py-16 bg-black px-3 sm:px-10 lg:px-20 py-6' >
                 {/* Header Section */}
                 <div className='w-full mt-6 flex flex-col md:flex-row justify-between gap-6 md:px-5'>
                     <div className=' md:w-1/2 w-full'>

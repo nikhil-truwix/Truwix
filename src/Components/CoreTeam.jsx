@@ -2,16 +2,14 @@ import React from "react";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import icon from "../assets/icon6.png";
-import image1 from "../assets/Aftab.jpg";
-import image2 from "../assets/Mukul.jpg";
-import image3 from "../assets/Rishabh.jpg";
+
 
 const Team = () => {
   
   const teamMembers = [
-    { img: image1, founder: "Nishant", designation: "CEO" },
-    { img: image2, founder: "Jatin", designation: "CTO" },
-    { img: image3, founder: "Tanishka", designation: "Content Writer" },
+    { img:"https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600", founder: "Nishant", designation: "CEO" },
+    { img:"https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600", founder: "Jatin", designation: "CTO" },
+    { img:"https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600", founder: "Tanishka", designation: "Content Writer" },
     {
       img: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600",
       founder: "Shalley",
